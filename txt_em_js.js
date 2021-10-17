@@ -11,7 +11,7 @@
  }
 
  for(let i = 0;i< lista_sobrenomes.length;i++){
-    let sobrenome = ('"'+lista_sobrenomes[i]+',') 
+    let sobrenome = ('"'+lista_sobrenomes[i]+'",') 
     document.getElementById("saidaSobrenomes").innerHTML += sobrenome
 }
 
